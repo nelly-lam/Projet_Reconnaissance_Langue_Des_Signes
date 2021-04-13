@@ -19,5 +19,3 @@ Les inconvénients des machines à vecteurs de support sont les suivants :
         Les SVM ne fournissent pas directement d'estimations de probabilité, celles-ci sont calculées à l'aide d'une coûteuse validation croisée à cinq reprises (voir Scores et probabilités, ci-dessous).
 
 Les machines à vecteurs de support de Scikit-learn prennent en charge les vecteurs d'échantillons denses (numpy.ndarray et convertibles en numpy.asarray) et épars (n'importe quel scipy.sparse) comme entrée. Cependant, pour utiliser un SVM pour faire des prédictions pour des données éparses, il doit avoir été ajusté sur de telles données. Pour des performances optimales, utilisez numpy.ndarray (dense) ou scipy.sparse.csr_matrix (sparse) ordonné en C avec dtype=float64.
-
-Traduit avec www.DeepL.com/Translator (version gratuite)
