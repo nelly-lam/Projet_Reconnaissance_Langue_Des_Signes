@@ -11,7 +11,7 @@ Il consiste à implémenter un algorithme en python qui puisse identifier l'alph
 
 L'idée est de comparer des classifiers de la bibliothèque Scikit-learn et de choisir celui qui renverra le meilleur score de prédiction sur notre jeu de données.
 
-`Description de l'archive:` Les images de mains sont chiffrées dans des fichiers csv, elles sont décrites sous forme de pixels et associées à un label. Les labels sont numérotés de 0 à 24 représentent les lettres de l'alphabet (:warning: les lettres j et z ne sont pas représentées).
+`Description de l'archive:` Les images de mains sont chiffrées dans des fichiers csv, elles sont décrites sous forme de pixels et chacune associée à un label. Les labels sont numérotés de 0 à 24 et représentent les lettres de l'alphabet (:warning: les lettres j et z ne sont pas représentées).
 
 ---
 
