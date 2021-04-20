@@ -18,7 +18,7 @@ L'idée est de comparer des classifiers de la bibliothèque Scikit-learn et de c
 ### Pour les développeurs
 *[Projet terminé]*
 
-Après plusieurs comparaisons de modèles d'apprentissage supervisé de la bibliothèque scikit-learn (SVC, NuSVC, DecisionTree), l'algorithme d'identification de l'alphabet se repose sur le modèle SVC.
+Après plusieurs comparaisons de modèles d'apprentissage supervisé de la bibliothèque scikit-learn (SVC, NuSVC, LinearSVC, DecisionTree), l'algorithme d'identification de l'alphabet se repose sur le modèle SVC.
 
 `Idée d'approfondissement:`Le projet est ciblé sur l'identification de l'alphabet du langage des signes. Il pourrait être approfondi en incorporant des images de mains représentant des mots.
 
