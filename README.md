@@ -25,8 +25,12 @@ Après plusieurs comparaisons de modèles d'apprentissage supervisé de la bibli
 ---
 ---
 
-(eng version)
+[eng version]
 
+1. [Presentation](#presentation)
+2. [For developers](#developer)
+
+---
 ### Presentation
 This project was realized for the Introduction to Supervised Learning course, 
 of the program of the 3rd year of Computer Science degree at the University Paris-Saclay.
