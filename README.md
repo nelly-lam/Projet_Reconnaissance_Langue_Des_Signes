@@ -20,7 +20,35 @@ L'idée est de comparer des classifiers de la bibliothèque Scikit-learn et de c
 
 Après plusieurs comparaisons de modèles d'apprentissage supervisé de la bibliothèque scikit-learn (SVC, NuSVC, LinearSVC, DecisionTree), l'algorithme d'identification de l'alphabet se repose sur le modèle SVC.
 
-`Idée d'approfondissement:`Le projet est ciblé sur l'identification de l'alphabet du langage des signes. Il pourrait être approfondi en incorporant des images de mains représentant des mots.
+`Idée d'approfondissement:` Le projet est ciblé sur l'identification de l'alphabet du langage des signes. Il pourrait être approfondi en incorporant des images de mains représentant des mots.
+
+---
+---
+
+(eng version)
+
+### Presentation
+This project was realized for the Introduction to Supervised Learning course, 
+of the program of the 3rd year of Computer Science degree at the University Paris-Saclay.
+
+It consists in implementing an algorithm in python that can identify the alphabet of the sign language from images of hands recovered in an archive of the site kaggle, archive available via [this link](https://www.kaggle.com/datamunge/sign-language-mnist).
+
+The idea is to compare classifiers from the Scikit-learn library and choose the one that will return the best prediction score on our data set.
+
+`Description of the package:` The hand images are encrypted in csv files, they are described as pixels and each associated with a label. 
+The labels are numbered from 0 to 24 and represent the letters of the alphabet (:warning: the letters j and z are not represented).
+
+---
+
+### For developers
+*[Project completed]*
+
+After several comparisons of supervised learning models from the scikit-learn library (SVC, NuSVC, LinearSVC, DecisionTree), 
+we finally choose that the alphabet identification algorithm would be based on the SVC model.
+
+`Improvement:` The project is focused on identifying the sign language alphabet. 
+It could be further developed by incorporating pictures of hands representing words.
+
 
 ---
 
